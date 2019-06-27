@@ -1,0 +1,8 @@
+**/*.sw[a-z]
+**/*.tar
+**/*.tar.*
+**/*.log
+**/*.retry
+**/.vagrant
+
+**/*.DS_Store

@@ -1,0 +1,219 @@
+Host *
+     User sangsun
+     IdentityFile ~/.ssh/id_rsa
+     ForwardAgent yes
+
+
+Host to1
+     Hostname test-o1.testdb
+Host td1
+     Hostname test-d1.testdb
+Host td2
+     Hostname test-d2.testdb
+Host td3
+     Hostname test-d3.testdb
+Host td4
+     Hostname test-d4.testdb
+Host td5
+     Hostname test-d5.testdb
+Host td6
+     Hostname test-d6.testdb
+Host tp1
+     Hostname test-p1.testdb
+Host ts1
+     Hostname test-s1.testdb
+
+
+
+Host mi
+     Hostname monitor.internal
+
+Host bi
+     Hostname builder.internal
+
+
+# CENTRAL
+Host d1
+     Hostname d1.sqldb
+Host d2
+     Hostname d2.sqldb
+Host d3
+     Hostname d3.sqldb
+Host d4
+     Hostname d4.sqldb
+Host d5
+     Hostname d5.sqldb
+Host d6
+     Hostname d6.sqldb
+Host ds
+     Hostname central-sandbox.sqldb
+
+
+# NA
+Host na1
+     Hostname na-d1.sqldb
+Host na2
+     Hostname na-d2.sqldb
+Host na3
+     Hostname na-d3.sqldb
+Host nas
+     Hostname na-sandbox.sqldb
+
+
+# EU
+Host eu1
+     Hostname eu-d1.sqldb
+Host eu2
+     Hostname eu-d2.sqldb
+Host eu3
+     Hostname eu-d3.sqldb
+Host eu4
+     Hostname eu-d4.sqldb
+Host eu5
+     Hostname eu-d5.sqldb
+Host eu6
+     Hostname eu-d6.sqldb
+Host eus
+     Hostname eu-sandbox.sqldb
+
+
+# FRAUD
+Host frd1
+     Hostname fraud-d1.sqldb
+Host frd2
+     Hostname fraud-d2.sqldb
+Host frd3
+     Hostname fraud-d3.sqldb
+Host frds
+     Hostname fraud-sandbox.sqldb
+
+
+# RUSSIAN Physical
+Host m8a
+     Hostname 212.65.85.113
+Host m8b
+     Hostname 212.65.85.114
+
+
+# DELIVERY
+Host de1
+     Hostname delivery-d1.sqldb
+Host de2
+     Hostname delivery-d2.sqldb
+Host de3
+     Hostname delivery-d3.sqldb
+Host des
+     Hostname delivery-sandbox.sqldb
+
+# INVOICE
+Host iv1
+     Hostname invoicing-d1.sqldb
+Host iv2
+     Hostname invoicing-d2.sqldb
+Host iv3
+     Hostname invoicing-d3.sqldb
+Host ivs
+     Hostname invoicing-sandbox.sqldb
+
+
+# AU
+Host au1
+     Hostname au-d1.sqldb
+Host au2
+     Hostname au-d2.sqldb
+Host au3
+     Hostname au-d3.sqldb
+Host au4
+     Hostname au-d4.sqldb
+Host aus
+     Hostname au-sandbox.sqldb
+     ForwardAgent yes
+
+# GB
+Host gb1
+     Hostname gb-d1.sqldb
+Host gb2
+     Hostname gb-d2.sqldb
+Host gb3
+     Hostname gb-d3.sqldb
+Host gbs
+     Hostname gb-sandbox.sqldb
+
+# RU
+Host ru1
+     Hostname ru-d1.sqldb
+Host ru2
+     Hostname ru-d2.sqldb
+Host ru3
+     Hostname ru-d3.sqldb
+Host rus
+     Hostname ru-sandbox.sqldb
+
+
+# camp
+Host camp1
+     Hostname camp-d1.sqldb
+Host camp2
+     Hostname camp-d2.sqldb
+Host camp3
+     Hostname camp-d3.sqldb
+Host camp4
+     Hostname camp-d4.sqldb
+Host camps
+     Hostname campaign-sandbox.sqldb
+
+
+# Payment
+Host pay1
+     Hostname payment-d1.sqldb
+Host pay2
+     Hostname payment-d2.sqldb
+Host pay3
+     Hostname payment-d3.sqldb
+Host pay4
+     Hostname payment-d4.sqldb
+Host pays
+     Hostname payment-sandbox.sqldb
+
+# Rental Central ( ren-cen )
+Host rencen1
+     Hostname ren-cen-d1.sqldb
+Host rencen2
+     Hostname ren-cen-d2.sqldb
+Host rencen3
+     Hostname ren-cen-d3.sqldb
+Host rencens
+     Hostname ren-cen-sandbox.sqldb
+
+# Rental Global ( ren-glob )
+Host renglob1
+     Hostname ren-glob-d1.sqldb
+Host renglob2
+     Hostname ren-glob-d2.sqldb
+Host renglob3
+     Hostname ren-glob-d3.sqldb
+Host renglobs
+     Hostname ren-glob-sandbox.sqldb
+
+# VM
+Host v1
+    Hostname 192.168.56.2
+Host pxc1
+    Hostname 192.168.56.11
+Host pxc2
+    Hostname 192.168.56.12
+Host pxc3
+    Hostname 192.168.56.13
+
+Host exportor1
+    Hostname 192.168.56.14
+
+Host exportor2
+    Hostname 192.168.56.15
+
+
+
+# Blog
+Host blog
+    Hostname blog.bolt.eu
+

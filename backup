@@ -1,0 +1,7 @@
+#!/bin/bash
+
+\cp ~/.ssh/config ~/git/config-backup/
+
+\cp ~/.vimrc ~/git/config-backup/vimrc
+
+\cp ~/.tmux.conf ~/git/config-backup/tmux.conf
